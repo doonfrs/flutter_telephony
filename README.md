@@ -1,14 +1,20 @@
 # telephony
 
-A new flutter plugin project.
+A flutter plugin to provide telephony functions
 
-## Getting Started
+## Only android supported currently
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+#### Call Number
+Telephony.callNumber("+12343");
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+#### Drop Current active Call
+Telephony.endCall();
+
+#### Send SMS
+Telephony.sendSMSMessage("+12343","Hi");
+
+#### Send sendUSSD
+Telephony.sendUSSD("*123*1*2#");
+
+
+
