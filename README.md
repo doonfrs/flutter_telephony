@@ -4,7 +4,7 @@ A flutter plugin to provide telephony functions
 
 ## Installation
 Update your pubspec.yaml add to dependency
-telephone:
+telephony:
     git: https://github.com/doonfrs/flutter_telephony.git
 
 
