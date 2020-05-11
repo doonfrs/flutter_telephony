@@ -8,8 +8,9 @@ telephone:
     git: https://github.com/doonfrs/flutter_telephony.git
 
 
-## Request Permissions
+## Required Permissions
 Update your android/app/src/main/AndroidManifest.xml add the foloowing lines (Maybe you don't need to add them all, google for each permission to understand more about it)
+    
     <uses-permission android:name="android.permission.MODIFY_PHONE_STATE" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
